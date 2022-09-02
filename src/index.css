@@ -11,13 +11,13 @@ header{
     background-color: red;
 }
 
-img#hero{
+header img#hero{
     width: 400px;
     border-radius: 50%;
     margin: 10px 0px 10px 0px;
 }
 
-h1#hero{
+header h1#hero{
     color: white;
     font-size: 80px;
     font-family: 'Rubik Maze', cursive;
@@ -27,19 +27,30 @@ nav{
     background-color: black;
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
 
-li a{
+nav ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li:hover{
+    background-color: rgba(255, 0, 0, 0.233);    
+}
+
+nav ul li a{
     font-size: 30px;
     font-family: 'Rubik Maze', cursive;
     text-decoration: none;
     color: white;
 }
 
-li a:hover{
+nav ul li a:hover{
     color: red;
 }
