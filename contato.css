@@ -90,7 +90,7 @@ main section#titulo h1{
     font-size: 25px;
 }
 
-main section#sobre p{
+main section#contato p{
     text-align: left;
     font-weight: 900;
     font-size: 15px;
@@ -162,7 +162,7 @@ footer h6#hero{
         max-width: 20000px;
     }
     
-    main section#sobre p{
+    main section#contato p{
         text-align: left;
         font-weight: 900;
         font-size: 15px;
