@@ -91,16 +91,21 @@ main section#titulo h1{
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
-main section#contato p{
-    text-align: left;
+main section#contato{
+    text-align: center;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     margin-bottom: 10px;
     margin-left: 5px;
+}
+
+main section#contato section#email{
+    margin-bottom: 60px;
 }
 
 footer{
@@ -174,7 +179,7 @@ footer h6#hero{
     }
     
     main section#contato p{
-        text-align: left;
+        text-align: center;
         font-weight: 900;
         font-size: 15px;
         color: black;

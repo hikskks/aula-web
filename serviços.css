@@ -91,13 +91,13 @@ main section#titulo h1{
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 main section#serviços p{
     text-align: left;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     margin-bottom: 10px;
     margin-left: 5px;
